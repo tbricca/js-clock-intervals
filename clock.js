@@ -13,7 +13,7 @@ function secHand(){
 function minHand(){
 	var counter = 0;
 	setInterval(function(){
-		counter=+60;
+		counter+=60;
 		minHand.style.transform = "rotate(" + counter + "deg)";
 	}, 60000);
 }
@@ -21,7 +21,7 @@ function minHand(){
 function hrHand(){
 	var counter = 0;
 	setInterval(function(){
-		counter=+30;
+		counter+=30;
 		hourHand.style.transform = "rotate(" + counter + "deg)";
 	}, 360000000);
 }
